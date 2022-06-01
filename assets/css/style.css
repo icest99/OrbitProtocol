@@ -14,7 +14,7 @@
 
 body {
   font-family: 'PT Mono', monospace;
-  color: #444444;
+  color: #aeaeae;
 }
 
 a {
@@ -44,20 +44,29 @@ section {
   padding-bottom: 40px;
 }
 .section-header h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-weight: bolder;
   margin: 0;
-  color: #4154f1;
+  color: #44f1a6;
   text-transform: uppercase;
 }
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 38px;
-  line-height: 42px;
+  font-size: 42px;
+  line-height: 64px;
   font-weight: 700;
-  color: #012970;
+  color: #ffffff;
+}
+
+.section-header h3 {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .section-header p {
@@ -120,7 +129,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #44f1a6;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -128,12 +137,12 @@ section {
 }
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6776f4;
-  color: #fff;
+  background: #2cef9a;
+  color: rgb(0, 0, 0);
 }
 .back-to-top.active {
   visibility: visible;
@@ -157,7 +166,7 @@ section {
   padding: 20px 0;
 }
 .header.header-scrolled {
-  background: #fff;
+  background: #020202;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -290,12 +299,13 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #ffffff;
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
+  visibility: hidden;
 }
 .mobile-nav-toggle.bi-x {
   color: #fff;
@@ -1890,17 +1900,17 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
-  padding: 0 0 30px 0;
+  background: #141414;
+  /* padding: 0 0 30px 0; */
   font-size: 14px;
 }
 
 
-.footer-newsletter {
+/* .footer-newsletter {
   padding: 50px 0;
   background: #f6f9ff;
   border-top: 1px solid #e1ecff;
-}
+} */
 
 
 .footer-newsletter h4 {
@@ -1965,6 +1975,13 @@ section {
     background-position: center bottom;
   }
 }
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 .footer .footer-top .footer-info {
   margin-bottom: 30px;
 }
@@ -1980,7 +1997,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #012970;
+  color: #ffffff;
   font-family: 'PT Mono', monospace;
   margin-top: 3px;
 }
@@ -2092,6 +2109,7 @@ section {
   width: 2rem;
   height: auto;
   margin-right: 3%;
+  margin-top: 10%;
   /* background-color: white; */
 }
 
@@ -2108,3 +2126,78 @@ section {
   background-color: #ffffff;
   margin-top: 1rem;
 } */
+
+/* .video-container {
+  width:100%;
+  height: 30vh;
+  overflow:hidden;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGUlEQVQIW2NkwAT/GbEIMpAm+B9oBLKO/wBoSgMEPu0mjwAAAABJRU5ErkJggg==) repeat;
+  background-size: 6px 6px;
+}
+  
+#video-bg{
+  z-index: -2;
+  width:100%;
+  filter: grayscale(1);
+} 
+
+.video-container:before {
+  content:"";
+  z-index: 1;
+  background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(167, 167, 167, 0.3));
+  width: 100%;
+  height: 100%;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 2;
+}
+.overlay-off .video-overlay {
+  z-index: 0;
+} */
+
+
+.submit-box {
+  display: inline;
+}
+
+.submit-box > input {
+  background-color: #121212;
+  border: 2px solid #ffffff;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.submit-btn {
+  background-color: #44f1a6;
+  border: 2px solid #44f1a6;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #000;
+  /* font-size: 24; */
+  font-weight: 700;
+}
+
+.bottom-social.bottom-social.text-center.text-lg-start {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.bottom-social.text-center.text-lg-start > img {
+  margin: 0 3%;
+  width: 1.5rem;
+  height: auto;
+}
+
+hr.solid {
+  margin: 0;
+  border-top: 1px solid #bbb;
+}
