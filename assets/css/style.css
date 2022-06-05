@@ -2185,6 +2185,28 @@ section {
   font-weight: 700;
 }
 
+.coming-btn {
+  background-color: #000000;
+  border: 2px solid #44f1a6;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #000;
+  /* font-size: 24; */
+  font-weight: 700;
+  color: white
+}
+
+
+.doc-btn {
+  background-color: #44f1a6;
+  border: 2px solid #44f1a6;
+  padding: 8px 20px;
+  border-radius: 4px;
+  color: #000;
+  /* font-size: 24; */
+  font-weight: 700;
+}
+
 .bottom-social.bottom-social.text-center.text-lg-start {
   display: flex;
   justify-content: center;
