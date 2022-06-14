@@ -43,6 +43,7 @@ section {
   text-align: center;
   padding-bottom: 40px;
 }
+
 .section-header h2 {
   font-size: 16px;
   letter-spacing: 5px;
@@ -68,6 +69,30 @@ section {
   font-weight: 400;
   color: #fff;
 }
+
+.section-header.left {
+  text-align: left;
+}
+
+.section-header.left h2 {
+  font-size: 16px;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  margin: 0;
+  color: #44f1a6;
+  text-transform: uppercase;
+}
+
+.section-header.left p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 28px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+
 @media (max-width: 768px) {
   .section-header p {
     font-size: 28px;
