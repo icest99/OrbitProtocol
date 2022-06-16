@@ -252,7 +252,7 @@ section {
 }
 .navbar .getstarted, .navbar .getstarted:focus {
   /* background: #46b08f; */
-  border: 2px solid #44f1a6;
+  border: 2px solid #52dfa2;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -2247,4 +2247,22 @@ section {
 hr.solid {
   margin: 0;
   border-top: 1px solid #bbb;
+}
+
+.info-box > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.info-box > h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.section-header .bot-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
