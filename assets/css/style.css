@@ -2121,15 +2121,6 @@ section {
   }
 }
 
-/* @-webkit-keyframes glowing {
-  from {
-    box-shadow: 0 0 7px #fff, 0 0 16px #fff, 0 0 24px rgb(54, 255, 91), 0 0 32px rgb(75, 255, 219), 0 0 40px #31ff4d, 0 0 46px #32ff76, 0 0 55px #3bffad;
-  }
-  to {
-    box-shadow: 0 0 7px #fff, 0 0 16px #7eff70, 0 0 24px #98ff7b, 0 0 32px #6cff98, 0 0 40px #74ffba, 0 0 50px #7fff74, 0 0 60px #7aff7c;
-  }
-} */
-
 .text-center.text-lg-start > img {
   width: 2rem;
   height: auto;
@@ -2143,50 +2134,6 @@ section {
   height: auto;
   /* background-color: white; */
 }
-
-/* .devicer {
-  width: 33%;
-  display: block;
-  height: 2px;
-  background-color: #ffffff;
-  margin-top: 1rem;
-} */
-
-/* .video-container {
-  width:100%;
-  height: 30vh;
-  overflow:hidden;
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGUlEQVQIW2NkwAT/GbEIMpAm+B9oBLKO/wBoSgMEPu0mjwAAAABJRU5ErkJggg==) repeat;
-  background-size: 6px 6px;
-}
-  
-#video-bg{
-  z-index: -2;
-  width:100%;
-  filter: grayscale(1);
-} 
-
-.video-container:before {
-  content:"";
-  z-index: 1;
-  background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(167, 167, 167, 0.3));
-  width: 100%;
-  height: 100%;
-}
-
-.video-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .7);
-  z-index: 2;
-}
-.overlay-off .video-overlay {
-  z-index: 0;
-} */
-
 
 .submit-box {
   display: inline;
@@ -2265,4 +2212,31 @@ hr.solid {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+.values.bg-1 {
+  /* content: ""; */
+  background-image: url("/assets/img/bg-1.png"), url("/assets/img/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: -50% 90%, 150% 10%;
+  background-size: 70%;
+  background-color: #000;
+}
+
+.values.bg-2 {
+  /* content: ""; */
+  background-image: url("/assets/img/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: -250% 40%;
+  background-size: 130%;
+  background-color: #000;
+}
+
+.values.bg-3 {
+  /* content: ""; */
+  background-image: url("/assets/img/bg-1.png"), url("/assets/img/bg-1.png");
+  background-repeat: no-repeat;
+  background-position: -100% 40%, 200% 40%;
+  background-size: 60%;
+  background-color: #000;
 }
