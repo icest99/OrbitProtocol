@@ -2121,7 +2121,7 @@ section {
   }
 }
 
-.text-center.text-lg-start > img {
+.text-center.text-lg-start > a > img {
   width: 2rem;
   height: auto;
   margin-right: 3%;
